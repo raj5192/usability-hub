@@ -1,0 +1,143 @@
+@media screen and (max-width: 991px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+
+    .nav-link {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-out;
+    }
+
+    .nav-link.active {
+        left: 0;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+
+    }
+
+    .area-examples {
+        gap: 20px;
+    }
+
+    .card-area {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-banner {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .primary-btn {
+        width: 100%;
+    }
+
+    .header-sec {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .card-feature {
+        min-width: calc(50% - 10%);
+    }
+
+    .big-section {
+        flex-direction: column;
+    }
+
+    .container-views {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column-list {
+        align-items: stretch;
+    }
+
+
+
+}
+
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font: size 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .card-feature {
+        min-width: 100%;
+    }
+
+    .card-area {
+        width: 100%;
+    }
+
+    .top-banner {
+        display: none;
+    }
+
+    i.fa-solid.fa-bars {
+        font-size: xx-large;
+        margin-bottom: 15px;
+        color: #183B56;
+    }
+
+    .card-area {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .main-nav {
+        bottom: 15px;
+    }
+
+    .logos {
+        margin-top: 55px;
+        
+    }
+  
+
+
+}
