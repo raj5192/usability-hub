@@ -435,10 +435,6 @@ footer {
     gap: 20px;
     flex-wrap: wrap;
 }
-.subfooter-view .fa-brands:hover {
-  transform: translateY(-10px);
-  transition: 0.5s ease-in-out;
-}
 
 .subfooter-view .fa-brands {
   font-size: x-large;
