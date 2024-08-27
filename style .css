@@ -6,6 +6,9 @@
     box-sizing: border-box;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 :root {
     --primary-text-color: #183b56;
